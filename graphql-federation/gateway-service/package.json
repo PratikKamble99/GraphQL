@@ -1,0 +1,19 @@
+{
+  "name": "gateway-service",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "node dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.12.2",
+    "@apollo/server": "^5.2.0",
+    "@apollo/subgraph": "^2.12.2",
+    "graphql": "^16.12.0"
+  }
+}

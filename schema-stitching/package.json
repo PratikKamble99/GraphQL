@@ -1,0 +1,20 @@
+{
+  "name": "schema-stitching",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev":"node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.2.0",
+    "@graphql-tools/schema": "^10.0.30",
+    "@graphql-tools/stitch": "^10.1.6",
+    "@graphql-tools/wrap": "^11.1.2",
+    "graphql": "^16.12.0"
+  }
+}
